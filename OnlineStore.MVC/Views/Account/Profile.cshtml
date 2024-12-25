@@ -1,0 +1,16 @@
+﻿@using OnlineStore.Contracts.ApplicationUsers
+
+@model AppUserDto
+
+<div class="col-md-4 mb-3">
+    <label asp-for="Email" class="form-label">Email:</label>
+    <p>@Model.Email</p>
+</div>
+<div class="col-md-4 mb-3">
+    <label asp-for="UserName" class="form-label">Имя:</label>
+    <p>@Model.UserName</p>
+</div>
+<div class="col-md-4 mb-3">
+    <label asp-for="PhoneNumber" class="form-label">Номер телефона:</label>
+    <p>@Model.PhoneNumber</p>
+</div>

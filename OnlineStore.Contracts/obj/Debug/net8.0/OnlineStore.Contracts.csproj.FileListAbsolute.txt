@@ -1,0 +1,12 @@
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\bin\Debug\net8.0\OnlineStore.Contracts.deps.json
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\bin\Debug\net8.0\OnlineStore.Contracts.dll
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\bin\Debug\net8.0\OnlineStore.Contracts.pdb
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.AssemblyInfoInputs.cache
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.AssemblyInfo.cs
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.dll
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\refint\OnlineStore.Contracts.dll
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.pdb
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\ref\OnlineStore.Contracts.dll
+C:\Users\Evgeniy\source\repos\TMS_Project_OnlineStore\OnlineStore.Contracts\obj\Debug\net8.0\OnlineStore.Contracts.sourcelink.json

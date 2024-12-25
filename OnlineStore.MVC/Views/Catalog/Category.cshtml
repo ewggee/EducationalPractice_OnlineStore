@@ -1,0 +1,14 @@
+﻿@using OnlineStore.Contracts.Categories
+
+@model List<CategoryDto>
+
+<h4>@ViewBag.Title</h4>
+
+<nav class="nav flex-column">
+    @foreach (var subCategory in Model)
+    {
+        <a class="nav-link" asp-controller="Catalog" asp-action="GetCategory" asp-route-categoryId="@subCategory.Id">
+            @subCategory.Name
+        </a>
+    }
+</nav>

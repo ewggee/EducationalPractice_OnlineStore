@@ -1,0 +1,28 @@
+﻿@using OnlineStore.Contracts.Categories
+
+@model CategoryWithSubcategoriesViewModel
+
+@if (Model.CategoryDto != null)
+{
+    <h4>@Model.CategoryDto.Name</h4>
+
+    <nav>
+        <a class="btn btn-primary me-2" asp-controller="AdminCatalog" asp-action="UpdateCategory" asp-route-categoryId="@Model.CategoryDto.Id">Изменить</a>
+        <a class="btn btn-primary" asp-controller="AdminCatalog" asp-action="AddCategory" asp-route-parentCategoryId="@Model.CategoryDto.Id">Добавить подкатегорию</a>
+    </nav>
+}
+else
+{
+    <h4>@ViewBag.Title</h4>
+    
+    <a class="btn btn-primary" asp-controller="AdminCatalog" asp-action="AddCategory">Добавить категорию</a>
+}
+
+<nav class="nav flex-column">
+    @foreach (var subCategory in Model.Subcategories)
+    {
+        <a class="nav-link" asp-controller="AdminCatalog" asp-action="GetCategory" asp-route-categoryId="@subCategory.Id">
+            @subCategory.Name
+        </a>
+    }
+</nav>

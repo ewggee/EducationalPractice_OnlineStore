@@ -1,0 +1,524 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DependencyRegistrar\\OnlineStore.DependencyRegistrar.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj",
+        "projectName": "OnlineStore.Contracts",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj",
+        "projectName": "OnlineStore.Core",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj",
+        "projectName": "OnlineStore.DataAccess",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DependencyRegistrar\\OnlineStore.DependencyRegistrar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DependencyRegistrar\\OnlineStore.DependencyRegistrar.csproj",
+        "projectName": "OnlineStore.DependencyRegistrar",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DependencyRegistrar\\OnlineStore.DependencyRegistrar.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DependencyRegistrar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNet.Security.OAuth.Vkontakte": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.17, )"
+            },
+            "Hangfire.PostgreSql": {
+              "target": "Package",
+              "version": "[1.20.10, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.16, )"
+            },
+            "StackExchange.Redis.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "StackExchange.Redis.Extensions.Newtonsoft": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "projectName": "OnlineStore.Domain",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "projectName": "OnlineStore.Infrastructure",
+        "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Evgeniy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Evgeniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Contracts\\OnlineStore.Contracts.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Core\\OnlineStore.Core.csproj"
+              },
+              "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\Evgeniy\\source\\repos\\EducationalPractice_OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
